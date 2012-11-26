@@ -1,0 +1,3 @@
+This programm finds an solution x for the equation (1+x)*ln(1+x)-x=y for an y entered by user.
+y has to be in the interval [0.00001,10^50]
+The found solution x has 10 significant decimals so the the relative error is under 10^(-10) in relation to the real solution x*
