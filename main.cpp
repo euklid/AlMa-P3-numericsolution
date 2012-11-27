@@ -34,7 +34,7 @@ int main()
 {
 	double y=get_input();
 	if(y==0) { std::cout << "You were stubborn enough to enter input I won't accept. Goodbye!" << std::endl; return 1;}
-	std::cout << std::setprecision(15); //Print all significant numbers
+	std::cout << std::setprecision(10); //Print all significant numbers
 	std::cout << "The approximated solution is: "<< findx(y) << std::endl;
 	return 0;
 }
